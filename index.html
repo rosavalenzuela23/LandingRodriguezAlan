@@ -1,79 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    
-    <!-- La forma en la que agregas otra seccion es copiando el formato de section -->
-    <section class="seccion persona">
-        <h3>Portada</h3>
-        <img src="rosa.jpg" alt="" width="200" height="200">
 
-        <p>
-            Buenas persona que esta leyendo, soy Rosa Rodriguez valenzuela(La persona de la izquierda),
-            estudiante de Ingenieria en software en ITSON, cursando el 6to 
-            semestre de la carrera. Orgullosamente Trans!
-        </p>
+    <div>
+        <div class="subtitulo">
+            <h3>Portada</h3>
+        </div>
+        <section class="seccion persona">
 
-    </section>
+            <img src="rosa.jpg" alt="" width="200" height="200">
 
-    <section class="seccion hobby">
-        <h3>Hobbies</h3>
-        <img src="tablero.jpg" alt="" width="200" height="200">
+            <p>
+                Buenas persona que esta leyendo, soy Rosa Rodriguez valenzuela(La persona de la izquierda),
+                estudiante de Ingenieria en software en ITSON, cursando el 6to
+                semestre de la carrera. Orgullosamente Trans!
+            </p>
 
-        <h5>Ajedrez</h5>
-        <p>
-            Uno de mis hobbies es el ajedrez, cuando estaba en educacion media superior,
-            era parte de mi vida diaria, pero hoy, no lo tengo solo mas que un hobby
-        </p>
-
-        <img src="juegos.jpeg" alt="" width="200" height="200">
-        <h5>Programacion de videojuegos</h5>
-        <p>
-            Otro de mos hobbies, es la programacion de videojuegos. Dentro de la carrera,
-            existe una materia que se llama "Desarrollo de videojuegos" la cual, no cumplio
-            mis aspectativas del tema porque por mi parte, he estado intentando programar
-            juegos en mi tiempo libre(no he terminado ninguno)
-        </p>
-        Buenas persona que esta leyendo, soy Rosa Rodriguez valenzuela(La persona de la izquierda), estudiante de Ingenieria en software en ITSON, cursando el 6to semestre de la carrera. Orgullosamente Trans!
+        </section>
+    </div>
 
 
-    </section>
 
-    <section class="seccion series">
-        <h3>Series</h3>
-        <img src="lol.jpeg" alt="" width="200" height="200">
-        <h5>Arcane</h5>
+    <div>
+        <div class="subtitulo">
+            <h3>Hobbies</h3>
+        </div>
+        <section class="seccion">
+            <img src="tablero.jpg" alt="" width="200" height="200">
+            <div>
+                <h5>Ajedrez</h5>
+                <p>
+                    Uno de mis hobbies es el ajedrez, cuando estaba en educacion media superior,
+                    era parte de mi vida diaria, pero hoy, no lo tengo solo mas que un hobby
+                </p>
+            </div>
+        </section>
 
-        <p>
-            Arcane es una muy buena serie que recomiendo rotundamente, esta basada en un juego
-            muy famoso, pero lo increible de esta serie es que no tienes que jugarlo para poder
-            entender todo el transfondo de la serie
-        </p>
+        <section class="seccion">
+            <img src="juegos.jpeg" alt="" width="200" height="200">
+            <div>
+                <h5>Programacion de videojuegos</h5>
+                <p>
+                    Otro de mos hobbies, es la programacion de videojuegos. Dentro de la carrera,
+                    existe una materia que se llama "Desarrollo de videojuegos" la cual, no cumplio
+                    mis aspectativas del tema porque por mi parte, he estado intentando programar
+                    juegos en mi tiempo libre(no he terminado ninguno)
+                </p>
+            </div>
+        </section>
 
-        <img src="rezero.webp" alt="" width="200" height="200">
-        <h5>Re:Zero − Starting Life in Another World</h5>
-        <p>
-            Re:zero es una serie que he visto unas 10 veces al menos. Es una serie con una trama
-            casi perfecta, amo las series donde los personajes hablan y hablan y hablan y hablan en
-            vez de tener tanta accion como otras series o peliculas.
-        </p>
+    </div>
 
+    <div>
+        <div class="subtitulo">
+            <h3>Series</h3>
+        </div>
+        <section class="seccion serie">
+            <img src="lol.jpeg" alt="" width="200" height="200">
+            <div>
+                <h5>Arcane</h5>
+                <p>
+                    Arcane es una muy buena serie que recomiendo rotundamente, esta basada en un juego
+                    muy famoso, pero lo increible de esta serie es que no tienes que jugarlo para poder
+                    entender todo el transfondo de la serie
+                </p>
+            </div>
+        </section>
 
-    </section>
+        <section class="seccion serie">
+            <img src="rezero.webp" alt="" width="200" height="200">
+            <div>
+                <h5>Re:Zero − Starting Life in Another World</h5>
+                <p>
+                    Re:zero es una serie que he visto unas 10 veces al menos. Es una serie con una trama
+                    casi perfecta, amo las series donde los personajes hablan y hablan y hablan y hablan en
+                    vez de tener tanta accion como otras series o peliculas.
+                </p>
+            </div>
+        </section>
 
-    <section class="seccion contacto">
-        <h3>Contacto</h3>
-        <form action="mailto:rodriguezvalenzuelarosa4@gmail.com">
-            <input type="text" placeholder="nombre">
-            <input type="text" placeholder="escribre tu solicitud!">
-            <button>Enviar!</button>
-        </form>
+    </div>
 
-    </section>
+    <div>
+        <div class="subtitulo">
+            <h3>Contacto</h3>
+        </div>
+        <section class="seccion contacto">
+            <p>
+                Forma en la que te puedes poner en contacto conmigo:
+            </p>
+            <form action="mailto:rodriguezvalenzuelarosa4@gmail.com">
+                <input type="text" placeholder="nombre">
+                <input type="text" placeholder="escribre tu solicitud!">
+                <button>Enviar!</button>
+            </form>
+        </section>
+    </div>
+
 
 </body>
+
 </html>
